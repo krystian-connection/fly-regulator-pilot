@@ -1,0 +1,77 @@
+{
+  "common_scale": 0.2603936352170361,
+  "original_weight_normalization": "per-postsynaptic sum before rewiring/randomization; one common final scale across all variants",
+  "graphs": {
+    "rewired_11": {
+      "accepted_swaps": 1106770,
+      "attempts": 1179734,
+      "edge_overlap": 0.03428896699404574,
+      "in_degree_exact": true,
+      "out_degree_exact": true,
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.2603936352170363,
+      "self_loops": 64,
+      "bytes": 1339936,
+      "sha256": "8b64d007d604a5d5304819591d658dac14da0f76ffb3d2abb940e7665067f12a"
+    },
+    "rewired_29": {
+      "accepted_swaps": 1106770,
+      "attempts": 1180137,
+      "edge_overlap": 0.033340260397372534,
+      "in_degree_exact": true,
+      "out_degree_exact": true,
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.2603936352170363,
+      "self_loops": 52,
+      "bytes": 1339936,
+      "sha256": "be5eaf2caee78663dcd10fd84be1a66ee8333870172657ce6b579ab86758d925"
+    },
+    "rewired_47": {
+      "accepted_swaps": 1106770,
+      "attempts": 1179684,
+      "edge_overlap": 0.03392755495721785,
+      "in_degree_exact": true,
+      "out_degree_exact": true,
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.2603936352170363,
+      "self_loops": 51,
+      "bytes": 1339936,
+      "sha256": "4b328cf66a598b4f6c5f2ca5faad9c4fe71d8b78feda183fad08350d92de6ea9"
+    },
+    "fly": {
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.2603936352170363,
+      "self_loops": 537,
+      "bytes": 1339936,
+      "sha256": "04d2378a7d1f517f808dd20ee5b47e94be855e4ac7bd440be70fb519bcf755ed"
+    },
+    "random_11": {
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.8500000000000001,
+      "self_loops": 31,
+      "bytes": 1339936,
+      "sha256": "33fdb1fe4ee80e6b7f38b96d532729755b6b998ab04613fd5b255bae1ad797af"
+    },
+    "random_29": {
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.6883942779933969,
+      "self_loops": 43,
+      "bytes": 1339936,
+      "sha256": "b6550fb71cd419ad970563cbd04a59870e5045e2a79b4855ead01abb73b28626"
+    },
+    "random_47": {
+      "nodes": 2952,
+      "edges": 110677,
+      "max_incoming_sum": 0.8407184800514961,
+      "self_loops": 38,
+      "bytes": 1339936,
+      "sha256": "2a5da6264e224a441bd5f5a8426052f70fba35afa9ebe892ebcf90343171eb98"
+    }
+  }
+}

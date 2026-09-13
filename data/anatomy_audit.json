@@ -1,0 +1,6 @@
+{
+  "compartment_sum_equals_all_all": true,
+  "fraction_rows_not_exceeding_output_totals": 1.0,
+  "fraction_columns_not_exceeding_input_totals": 1.0,
+  "note": "External inputs/outputs exceed within-brain contacts, so totals need not equal. Blank CSV entries represent absent contacts."
+}

@@ -1,0 +1,14 @@
+{
+  "source": "Winding et al. 2023 Science, Supplementary Data S1; mirror brain-networks/larval-drosophila-connectome",
+  "revision": "15e065f5c29f08c96ccd64ea8fe0f51510629009",
+  "archive_sha256": "8c1f43809ed5d527ba61b154e377cc21da26383a75eda8aab85ce05607a72a4c",
+  "csv_sha256": "94d51a821217048acf711f4feb71693a8487f2547540c6f2f25896c60e2348e3",
+  "derived_sha256": "3445504d982014dccf9b0b9f8bead6e173116550dc758258b2752b0d2652943b",
+  "nodes": 2952,
+  "edges": 110677,
+  "synapses": 352611,
+  "self_loops": 537,
+  "filter": "None; all 2952 rows of supplied all-all matrix, no threshold, no core selection. This supplied graph is not all 3016 neurons reported in final paper.",
+  "orientation": "CSV pre rows/post columns transposed to W[post,pre]",
+  "signs": "Nonnegative counts; no transmitter inference; engineered rate operator, not biophysical excitation claims."
+}
