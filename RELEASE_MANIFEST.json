@@ -1,0 +1,661 @@
+{
+  "version": "0.1.0-rc3",
+  "status": "LOCAL LICENSE-APPROVED CANDIDATE; FINAL PUBLIC UPLOAD APPROVAL PENDING",
+  "original_protocol_lock_sha256": "147e3d3d476ae6b51be2b27521b84a327993e023a047b0109c97086e2cf47cf4",
+  "frozen_originals_verified": 38,
+  "all_original_run_and_data_files_unchanged": true,
+  "files": [
+    {
+      "path": "PROTOCOL.md",
+      "source": "PROTOCOL.md",
+      "transformation": "byte-identical",
+      "original_sha256": "f4cb4e8e678e5a804d8144a1d01cb193aee317dcd06e0645a81a44d839f53bef",
+      "release_sha256": "f4cb4e8e678e5a804d8144a1d01cb193aee317dcd06e0645a81a44d839f53bef"
+    },
+    {
+      "path": "RESEARCH.md",
+      "source": "RESEARCH.md",
+      "transformation": "byte-identical",
+      "original_sha256": "4322fc9ca03c9f3b80a0d4388c058202ff58e96a934d7bc8a9f92d76ff9ae2b7",
+      "release_sha256": "4322fc9ca03c9f3b80a0d4388c058202ff58e96a934d7bc8a9f92d76ff9ae2b7"
+    },
+    {
+      "path": "RESULTS.md",
+      "source": "RESULTS.md",
+      "transformation": "byte-identical",
+      "original_sha256": "215b5b34d1b0267d773f29fb65b0c906a0451c58fd1fbadde302d41112c32361",
+      "release_sha256": "215b5b34d1b0267d773f29fb65b0c906a0451c58fd1fbadde302d41112c32361"
+    },
+    {
+      "path": "HARNESS_REVIEW.md",
+      "source": "HARNESS_REVIEW.md",
+      "transformation": "byte-identical",
+      "original_sha256": "f99378e7160856c4ca02d38cbbbc3897f84c9b65135d131f73844340c19c05d5",
+      "release_sha256": "f99378e7160856c4ca02d38cbbbc3897f84c9b65135d131f73844340c19c05d5"
+    },
+    {
+      "path": "UI_CHECKS.md",
+      "source": "UI_CHECKS.md",
+      "transformation": "byte-identical",
+      "original_sha256": "11dd1a1280deeacec04373b59ce62ac7db96077a0b494150150046d1f64457de",
+      "release_sha256": "11dd1a1280deeacec04373b59ce62ac7db96077a0b494150150046d1f64457de"
+    },
+    {
+      "path": "LICENSE",
+      "source": "LICENSE",
+      "transformation": "byte-identical",
+      "original_sha256": "8bb6f1adf4313c306c4435a51ec245c3b16663c7b134dd89d49c3bcce9f69f4b",
+      "release_sha256": "8bb6f1adf4313c306c4435a51ec245c3b16663c7b134dd89d49c3bcce9f69f4b"
+    },
+    {
+      "path": "requirements.txt",
+      "source": "requirements.txt",
+      "transformation": "byte-identical",
+      "original_sha256": "e7795fa6c435ab86b906a51554efdfc9eb8b94a6ff0f01d8e03cfdd16bb4b120",
+      "release_sha256": "e7795fa6c435ab86b906a51554efdfc9eb8b94a6ff0f01d8e03cfdd16bb4b120"
+    },
+    {
+      "path": "run_config.json",
+      "source": "run_config.json",
+      "transformation": "byte-identical",
+      "original_sha256": "94cfa7c72cd5aba7ddbee2d8d21ad7f2e8f28f7158c503da71906d729f3cb08a",
+      "release_sha256": "94cfa7c72cd5aba7ddbee2d8d21ad7f2e8f28f7158c503da71906d729f3cb08a"
+    },
+    {
+      "path": "experiment.py",
+      "source": "experiment.py",
+      "transformation": "byte-identical",
+      "original_sha256": "e16ebe537737fb2c781ece786431f9a9a8681afc76db57bf029ba71d75ad6063",
+      "release_sha256": "e16ebe537737fb2c781ece786431f9a9a8681afc76db57bf029ba71d75ad6063"
+    },
+    {
+      "path": "tests/test_experiment.py",
+      "source": "tests/test_experiment.py",
+      "transformation": "byte-identical",
+      "original_sha256": "978f1ed1bd7da981d6123b0faaa874240239ffba63adf8dece4f5d3901538252",
+      "release_sha256": "978f1ed1bd7da981d6123b0faaa874240239ffba63adf8dece4f5d3901538252"
+    },
+    {
+      "path": "tests/test_web_controls.py",
+      "source": "tests/test_web_controls.py",
+      "transformation": "byte-identical",
+      "original_sha256": "4a791071ad8099a9c4590898ed2d2ce6bf02053784552c3aef37030b37269ffd",
+      "release_sha256": "4a791071ad8099a9c4590898ed2d2ce6bf02053784552c3aef37030b37269ffd"
+    },
+    {
+      "path": "web/app.js",
+      "source": "web/app.js",
+      "transformation": "byte-identical",
+      "original_sha256": "105b91d5aa419c87372b68dd972d205c46bbb124c06191f79f3e63770be59099",
+      "release_sha256": "105b91d5aa419c87372b68dd972d205c46bbb124c06191f79f3e63770be59099"
+    },
+    {
+      "path": "web/style.css",
+      "source": "web/style.css",
+      "transformation": "byte-identical",
+      "original_sha256": "9533b2b2bf6f740d0cf7a4b8093787114cfe36835b852eaf5ec70c27334c1cb3",
+      "release_sha256": "9533b2b2bf6f740d0cf7a4b8093787114cfe36835b852eaf5ec70c27334c1cb3"
+    },
+    {
+      "path": "web/index.html",
+      "source": "web/index.html",
+      "transformation": "byte-identical",
+      "original_sha256": "e62125e40a6b88610487366e9a615b94f65fd2be78f4066a82dd6d237925029e",
+      "release_sha256": "e62125e40a6b88610487366e9a615b94f65fd2be78f4066a82dd6d237925029e"
+    },
+    {
+      "path": "web/server.py",
+      "source": "web/server.py",
+      "transformation": "byte-identical",
+      "original_sha256": "9aedcbcaccdeee2ce7127064ae96e0951bcb2617fe7b1d92c7c168eea161c6f9",
+      "release_sha256": "9aedcbcaccdeee2ce7127064ae96e0951bcb2617fe7b1d92c7c168eea161c6f9"
+    },
+    {
+      "path": "original/README.md",
+      "source": "README.md",
+      "transformation": "byte-identical",
+      "original_sha256": "ea7a5c7ed37ce0b34945fb71d5ce1a411174eef4845f6d12307dec9097f516a8",
+      "release_sha256": "ea7a5c7ed37ce0b34945fb71d5ce1a411174eef4845f6d12307dec9097f516a8"
+    },
+    {
+      "path": "original/Launch.command",
+      "source": "Launch.command",
+      "transformation": "byte-identical",
+      "original_sha256": "1ecb1625419a08f272149ee4ec58bf4382c51755993a6af2a6f335f2305b8995",
+      "release_sha256": "1ecb1625419a08f272149ee4ec58bf4382c51755993a6af2a6f335f2305b8995"
+    },
+    {
+      "path": "scripts/prepare_graph.py",
+      "source": "scripts/prepare_graph.py",
+      "transformation": "byte-identical",
+      "original_sha256": "e8c5909b01b38c7a46b4c4238e34aa5ea256989b40d88b8312efa935a2c5cac3",
+      "release_sha256": "e8c5909b01b38c7a46b4c4238e34aa5ea256989b40d88b8312efa935a2c5cac3"
+    },
+    {
+      "path": "scripts/check_anatomy.py",
+      "source": "scripts/check_anatomy.py",
+      "transformation": "byte-identical",
+      "original_sha256": "a1650208ceff24d295df19a3e25854f837b3f489040d19d202ee9e1fbee1977a",
+      "release_sha256": "a1650208ceff24d295df19a3e25854f837b3f489040d19d202ee9e1fbee1977a"
+    },
+    {
+      "path": "scripts/check_dynamics.py",
+      "source": "scripts/check_dynamics.py",
+      "transformation": "byte-identical",
+      "original_sha256": "3e12c1ca5fda34eb432e2966e58096dacb0f378e47ef9d0708d51adafb7dbd14",
+      "release_sha256": "3e12c1ca5fda34eb432e2966e58096dacb0f378e47ef9d0708d51adafb7dbd14"
+    },
+    {
+      "path": "scripts/analyze.py",
+      "source": "scripts/analyze.py",
+      "transformation": "byte-identical",
+      "original_sha256": "667d7ef98fb7a6312a8bb5f7f59403ee86637bf5b9b0d1b90c21fa173dc26360",
+      "release_sha256": "667d7ef98fb7a6312a8bb5f7f59403ee86637bf5b9b0d1b90c21fa173dc26360"
+    },
+    {
+      "path": "scripts/audit_harness.py",
+      "source": "scripts/audit_harness.py",
+      "transformation": "byte-identical",
+      "original_sha256": "1f6c47e293646adbaeafc53735a179998236c4c6a130bf129c6d7a82b0a0aba9",
+      "release_sha256": "1f6c47e293646adbaeafc53735a179998236c4c6a130bf129c6d7a82b0a0aba9"
+    },
+    {
+      "path": "scripts/export_tables.py",
+      "source": "scripts/export_tables.py",
+      "transformation": "byte-identical",
+      "original_sha256": "0980e65de6612a25623a0c6c80ad26d3d959ea7e15f00c4a8740b632e9f3b5c1",
+      "release_sha256": "0980e65de6612a25623a0c6c80ad26d3d959ea7e15f00c4a8740b632e9f3b5c1"
+    },
+    {
+      "path": "scripts/probes.py",
+      "source": "scripts/probes.py",
+      "transformation": "byte-identical",
+      "original_sha256": "44818f2811da56843d6a882b88b33db1807d53928c8a10fce7c2648e2f89f100",
+      "release_sha256": "44818f2811da56843d6a882b88b33db1807d53928c8a10fce7c2648e2f89f100"
+    },
+    {
+      "path": "scripts/run_pilot.py",
+      "source": "scripts/run_pilot.py",
+      "transformation": "byte-identical",
+      "original_sha256": "aa7b1a336250e591f1a2e0bf878ea0dc2c73e288cc61ca2836a8a5286ab5d4a9",
+      "release_sha256": "aa7b1a336250e591f1a2e0bf878ea0dc2c73e288cc61ca2836a8a5286ab5d4a9"
+    },
+    {
+      "path": "scripts/lock_protocol.py",
+      "source": "scripts/lock_protocol.py",
+      "transformation": "byte-identical",
+      "original_sha256": "0e43734178fab612d8e6f19c79101109c49c552894214896f6c4c45f673bd1b0",
+      "release_sha256": "0e43734178fab612d8e6f19c79101109c49c552894214896f6c4c45f673bd1b0"
+    },
+    {
+      "path": "scripts/difficulty.py",
+      "source": "scripts/difficulty.py",
+      "transformation": "byte-identical",
+      "original_sha256": "2fd00083bc5b1d95ce8d867f0522448815b9efe43a0e0cf4d40a8796a8d732c6",
+      "release_sha256": "2fd00083bc5b1d95ce8d867f0522448815b9efe43a0e0cf4d40a8796a8d732c6"
+    },
+    {
+      "path": "scripts/posthoc_sanity.py",
+      "source": "scripts/posthoc_sanity.py",
+      "transformation": "byte-identical",
+      "original_sha256": "29f8ab4be24f94d0e05a0fbf281f09bbc921f1dbc8f440eac528f1ab5d93682c",
+      "release_sha256": "29f8ab4be24f94d0e05a0fbf281f09bbc921f1dbc8f440eac528f1ab5d93682c"
+    },
+    {
+      "path": "runs/test_episodes.jsonl",
+      "source": "runs/test_episodes.jsonl",
+      "transformation": "byte-identical",
+      "original_sha256": "0014d8d6b858d74b9fac8716f86f8ecaf497540508233a470875be63180c0016",
+      "release_sha256": "0014d8d6b858d74b9fac8716f86f8ecaf497540508233a470875be63180c0016"
+    },
+    {
+      "path": "runs/test_calls.jsonl",
+      "source": "runs/test_calls.jsonl",
+      "transformation": "byte-identical | rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "original_sha256": "f0c72733498afcc2d1c11e14862ec664ac7037d468d99c2f970dfa6094d0829f",
+      "release_sha256": "82eba26f45f02b281778063fc499e3859efde56e6182e9008ae3dc2cda13bcae",
+      "parent_release_sha256": "f0c72733498afcc2d1c11e14862ec664ac7037d468d99c2f970dfa6094d0829f"
+    },
+    {
+      "path": "runs/causal_probes.jsonl",
+      "source": "runs/causal_probes.jsonl",
+      "transformation": "byte-identical",
+      "original_sha256": "7a521e03f19482e58083fd880ba888a3107192a96d0de00d3b01269398dee86b",
+      "release_sha256": "7a521e03f19482e58083fd880ba888a3107192a96d0de00d3b01269398dee86b"
+    },
+    {
+      "path": "runs/probe_calls.jsonl",
+      "source": "runs/probe_calls.jsonl",
+      "transformation": "byte-identical | rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "original_sha256": "174d9393bec8b98c132098a4bb6755ce2ff7ed23f0e8e305ed6d0b30dbd4b6cc",
+      "release_sha256": "75ee0b728ec9157112cc5aae0ecc81d6d77fc11beb98436f7726412e377cab3a",
+      "parent_release_sha256": "174d9393bec8b98c132098a4bb6755ce2ff7ed23f0e8e305ed6d0b30dbd4b6cc"
+    },
+    {
+      "path": "runs/analysis.json",
+      "source": "runs/analysis.json",
+      "transformation": "byte-identical",
+      "original_sha256": "96ce4dc39cedcd23d0b23719df067d564fbb2b6566bc7933b9b527f029bb5f0f",
+      "release_sha256": "96ce4dc39cedcd23d0b23719df067d564fbb2b6566bc7933b9b527f029bb5f0f"
+    },
+    {
+      "path": "runs/condition_summary.csv",
+      "source": "runs/condition_summary.csv",
+      "transformation": "byte-identical",
+      "original_sha256": "dd968cc0f74d6a065a9e5142469d1146dc79aa054ae4765e14eb436f0c0518b3",
+      "release_sha256": "dd968cc0f74d6a065a9e5142469d1146dc79aa054ae4765e14eb436f0c0518b3"
+    },
+    {
+      "path": "runs/episode_summary.csv",
+      "source": "runs/episode_summary.csv",
+      "transformation": "byte-identical",
+      "original_sha256": "4772a32154da184ff645d5577007b9056ea7f1ff890b1305c7393f03bf149eaf",
+      "release_sha256": "4772a32154da184ff645d5577007b9056ea7f1ff890b1305c7393f03bf149eaf"
+    },
+    {
+      "path": "runs/paired_intervals.csv",
+      "source": "runs/paired_intervals.csv",
+      "transformation": "byte-identical",
+      "original_sha256": "d01d133039d355f172901054ec14d86b74d886a6e1d232070183fe5acad3b12c",
+      "release_sha256": "d01d133039d355f172901054ec14d86b74d886a6e1d232070183fe5acad3b12c"
+    },
+    {
+      "path": "runs/protocol_lock.json",
+      "source": "runs/protocol_lock.json",
+      "transformation": "byte-identical",
+      "original_sha256": "147e3d3d476ae6b51be2b27521b84a327993e023a047b0109c97086e2cf47cf4",
+      "release_sha256": "147e3d3d476ae6b51be2b27521b84a327993e023a047b0109c97086e2cf47cf4"
+    },
+    {
+      "path": "runs/test_audit.json",
+      "source": "runs/test_audit.json",
+      "transformation": "byte-identical",
+      "original_sha256": "1eb070151fb249028ec4b3480b4a6f9396ceeaf15d5c159249b9aea3737a2e19",
+      "release_sha256": "1eb070151fb249028ec4b3480b4a6f9396ceeaf15d5c159249b9aea3737a2e19"
+    },
+    {
+      "path": "runs/delivery_verification.json",
+      "source": "runs/delivery_verification.json",
+      "transformation": "byte-identical",
+      "original_sha256": "06782ff01548fea9d0dee4097ee80b57a000618548c513d4fb50065811b40228",
+      "release_sha256": "06782ff01548fea9d0dee4097ee80b57a000618548c513d4fb50065811b40228"
+    },
+    {
+      "path": "runs/final_budget.json",
+      "source": "runs/final_budget.json",
+      "transformation": "byte-identical",
+      "original_sha256": "06e700acf5b8bb35304a18c08a1aac3adfd2c147156c104e95aaf7335ec4cd64",
+      "release_sha256": "06e700acf5b8bb35304a18c08a1aac3adfd2c147156c104e95aaf7335ec4cd64"
+    },
+    {
+      "path": "runs/call_ledger.jsonl",
+      "source": "runs/call_ledger.jsonl",
+      "transformation": "byte-identical | rc2 replaces wall-clock time with elapsed_s from first reservation; preserves reservation IDs, tags, order and elapsed intervals.",
+      "original_sha256": "b762b356393413ef3f8518e1a8bf2dd33d231ad2b9e3b9690a2d6d47f9b38abf",
+      "release_sha256": "b46ec966b2c7f2203bd67c4f656ef9afa16fee1e821715b5cf468266acb5cfb2",
+      "parent_release_sha256": "b762b356393413ef3f8518e1a8bf2dd33d231ad2b9e3b9690a2d6d47f9b38abf"
+    },
+    {
+      "path": "runs/profile.jsonl",
+      "source": "runs/profile.jsonl",
+      "transformation": "byte-identical | rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "original_sha256": "1da1a846c4210b9edb6b95dcdde86ee549d11de60d526b922b221f03339522ce",
+      "release_sha256": "c90986c12b988927298a93990ed551244acc6d584b02b58b57e764208dc44bb3",
+      "parent_release_sha256": "1da1a846c4210b9edb6b95dcdde86ee549d11de60d526b922b221f03339522ce"
+    },
+    {
+      "path": "runs/tuning.json",
+      "source": "runs/tuning.json",
+      "transformation": "byte-identical",
+      "original_sha256": "9e56e46d1f8abb17c86ffdbf5fd8e3206852e1a6bcd481fad095715e2bfd0522",
+      "release_sha256": "9e56e46d1f8abb17c86ffdbf5fd8e3206852e1a6bcd481fad095715e2bfd0522"
+    },
+    {
+      "path": "runs/validation_difficulty.json",
+      "source": "runs/validation_difficulty.json",
+      "transformation": "byte-identical",
+      "original_sha256": "2b91da2ba801dd3071739f7f09afb63a9e8c66bceab1f38389ca132d382a18da",
+      "release_sha256": "2b91da2ba801dd3071739f7f09afb63a9e8c66bceab1f38389ca132d382a18da"
+    },
+    {
+      "path": "runs/posthoc_task_sanity.json",
+      "source": "runs/posthoc_task_sanity.json",
+      "transformation": "byte-identical",
+      "original_sha256": "e7c59a9d4a82c4a55745cf3ea534183f5b34b20e559367c5b35a89da41c26cfc",
+      "release_sha256": "e7c59a9d4a82c4a55745cf3ea534183f5b34b20e559367c5b35a89da41c26cfc"
+    },
+    {
+      "path": "runs/tests_before_test.log",
+      "source": "runs/tests_before_test.log",
+      "transformation": "byte-identical",
+      "original_sha256": "e30b4c51ad50089a305c3ecf3d42c64743552f1f52849c23c8b34c3728c5fbcd",
+      "release_sha256": "e30b4c51ad50089a305c3ecf3d42c64743552f1f52849c23c8b34c3728c5fbcd"
+    },
+    {
+      "path": "runs/tests_final.log",
+      "source": "runs/tests_final.log",
+      "transformation": "byte-identical",
+      "original_sha256": "982b2ff911569ea91e62b856d81021cd439afa21aade3e1287c4bd7954636238",
+      "release_sha256": "982b2ff911569ea91e62b856d81021cd439afa21aade3e1287c4bd7954636238"
+    },
+    {
+      "path": "runs/web_control_tests.log",
+      "source": "runs/web_control_tests.log",
+      "transformation": "byte-identical",
+      "original_sha256": "ef8acc0c81d3e99693e7caa380dac7aa5aa976a167ef2163a975bd4233f9edc0",
+      "release_sha256": "ef8acc0c81d3e99693e7caa380dac7aa5aa976a167ef2163a975bd4233f9edc0"
+    },
+    {
+      "path": "runs/dependency_manifest.json",
+      "source": "runs/dependency_manifest.json",
+      "transformation": "byte-identical",
+      "original_sha256": "f47bf72fcfa4c0a58a8c0fa9bec303d143cfa1aa00b5a0e19db1c9732e125b59",
+      "release_sha256": "f47bf72fcfa4c0a58a8c0fa9bec303d143cfa1aa00b5a0e19db1c9732e125b59"
+    },
+    {
+      "path": "runs/python_packages.txt",
+      "source": "runs/python_packages.txt",
+      "transformation": "byte-identical",
+      "original_sha256": "e7795fa6c435ab86b906a51554efdfc9eb8b94a6ff0f01d8e03cfdd16bb4b120",
+      "release_sha256": "e7795fa6c435ab86b906a51554efdfc9eb8b94a6ff0f01d8e03cfdd16bb4b120"
+    },
+    {
+      "path": "runs/validation_v3_audit.json",
+      "source": "runs/validation_v3_audit.json",
+      "transformation": "byte-identical",
+      "original_sha256": "595944cfc403d49f1134b04dacfa37a963a5a63e6237424467114e215fdfda2d",
+      "release_sha256": "595944cfc403d49f1134b04dacfa37a963a5a63e6237424467114e215fdfda2d"
+    },
+    {
+      "path": "runs/validation_calls.jsonl",
+      "source": "runs/validation_calls.jsonl",
+      "transformation": "byte-identical | rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "original_sha256": "0ae29d5a1fe83595d17dbca9424d7c8a3fe4e06739036cbeee780b3f5a5bb3f8",
+      "release_sha256": "5a1516035fcaf4bff3fb0d2b530392efeec666138a9b5ee9a61e07b4ae0ce551",
+      "parent_release_sha256": "0ae29d5a1fe83595d17dbca9424d7c8a3fe4e06739036cbeee780b3f5a5bb3f8"
+    },
+    {
+      "path": "runs/validation_episodes.jsonl",
+      "source": "runs/validation_episodes.jsonl",
+      "transformation": "byte-identical",
+      "original_sha256": "f26132a7b0d8db6e1e10ea5a544a5b13b4665eb337317fc02616924c766bdd7a",
+      "release_sha256": "f26132a7b0d8db6e1e10ea5a544a5b13b4665eb337317fc02616924c766bdd7a"
+    },
+    {
+      "path": "runs/validation_v2_calls.jsonl",
+      "source": "runs/validation_v2_calls.jsonl",
+      "transformation": "byte-identical | rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "original_sha256": "557ea69bf6b1944f486ed344300e5c41f390a23fb7b959356f45d98f0c09c30d",
+      "release_sha256": "dbd4bbca2dca8245a04c86c13748e8c34332671db852ff53e1ec14ae6b6b014d",
+      "parent_release_sha256": "557ea69bf6b1944f486ed344300e5c41f390a23fb7b959356f45d98f0c09c30d"
+    },
+    {
+      "path": "runs/validation_v2_episodes.jsonl",
+      "source": "runs/validation_v2_episodes.jsonl",
+      "transformation": "byte-identical",
+      "original_sha256": "20e538002fcba85ef6cc2cc9310634da0f9541445cc82d972275687866f383af",
+      "release_sha256": "20e538002fcba85ef6cc2cc9310634da0f9541445cc82d972275687866f383af"
+    },
+    {
+      "path": "runs/validation_v3_calls.jsonl",
+      "source": "runs/validation_v3_calls.jsonl",
+      "transformation": "byte-identical | rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "original_sha256": "0251f09a328a645906993601bf57bf3b45402e39eb0c58f4182e42829c045589",
+      "release_sha256": "0c78198e90f45fe673c3d4bc62af0a5f30e7644045cce855f14e35f36f2bdc6f",
+      "parent_release_sha256": "0251f09a328a645906993601bf57bf3b45402e39eb0c58f4182e42829c045589"
+    },
+    {
+      "path": "runs/validation_v3_episodes.jsonl",
+      "source": "runs/validation_v3_episodes.jsonl",
+      "transformation": "byte-identical",
+      "original_sha256": "e603ce86a31ed07d9cc600c100d2db1850a0dab98e7fe7ad11e0c7fb2b494106",
+      "release_sha256": "e603ce86a31ed07d9cc600c100d2db1850a0dab98e7fe7ad11e0c7fb2b494106"
+    },
+    {
+      "path": "runs/development_v1_experiment.py",
+      "source": "runs/development_v1_experiment.py",
+      "transformation": "byte-identical",
+      "original_sha256": "2632afa981615532508a0f69fcadcdbd81941180d2509e7151d1a3e4a6bbdd41",
+      "release_sha256": "2632afa981615532508a0f69fcadcdbd81941180d2509e7151d1a3e4a6bbdd41"
+    },
+    {
+      "path": "runs/development_v2_experiment.py",
+      "source": "runs/development_v2_experiment.py",
+      "transformation": "byte-identical",
+      "original_sha256": "685e24eefdc5fad582a74f314234c1229ed9b67ec1701606e603949ab6d200b0",
+      "release_sha256": "685e24eefdc5fad582a74f314234c1229ed9b67ec1701606e603949ab6d200b0"
+    },
+    {
+      "path": "runs/tuning_v1.json",
+      "source": "runs/tuning_v1.json",
+      "transformation": "byte-identical",
+      "original_sha256": "ddea10048851ccb6401e3f75fd8c6b0005ffd5160121cd7aff4ddf0f7c6c8992",
+      "release_sha256": "ddea10048851ccb6401e3f75fd8c6b0005ffd5160121cd7aff4ddf0f7c6c8992"
+    },
+    {
+      "path": "data/manifest.json",
+      "source": "data/manifest.json",
+      "transformation": "byte-identical",
+      "original_sha256": "ed9d5a9ba20e4358951f534cdf2045e711d8a6b02a1e901fa74667614c86a280",
+      "release_sha256": "ed9d5a9ba20e4358951f534cdf2045e711d8a6b02a1e901fa74667614c86a280"
+    },
+    {
+      "path": "data/graph_controls.json",
+      "source": "data/graph_controls.json",
+      "transformation": "byte-identical",
+      "original_sha256": "0158971174abe0024a18900a5daf9ad88936c4656b0958a40d309fe6f6a934b1",
+      "release_sha256": "0158971174abe0024a18900a5daf9ad88936c4656b0958a40d309fe6f6a934b1"
+    },
+    {
+      "path": "data/anatomy_audit.json",
+      "source": "data/anatomy_audit.json",
+      "transformation": "byte-identical",
+      "original_sha256": "597e386c786d0602d3c3520743b237ba451f15902b650733cbebf08a3d3bf2a1",
+      "release_sha256": "597e386c786d0602d3c3520743b237ba451f15902b650733cbebf08a3d3bf2a1"
+    },
+    {
+      "path": "data/dynamics_checks.json",
+      "source": "data/dynamics_checks.json",
+      "transformation": "byte-identical",
+      "original_sha256": "fb373d63fa5bfbab276616987bd29d1ee40fb2baac27d180d4c4e28825db5424",
+      "release_sha256": "fb373d63fa5bfbab276616987bd29d1ee40fb2baac27d180d4c4e28825db5424"
+    },
+    {
+      "path": "runs/machine.json",
+      "source": "runs/machine.json",
+      "transformation": "Allowlist: removed model_path, initial_free_disk_GiB, notes; original lock hash retained separately. | rc1 field allowlist retained with additional removal of macos patch-version field in rc2; original frozen hash remains documented.",
+      "original_sha256": "17687ef1e7e77b032321aa44a28e50dcdd83228d60df09cd44bd874710538b1b",
+      "release_sha256": "c9b2ae9b6174e4373a80cef0b61595cf8d0b0d9dc54c095167fab49d20f4a286",
+      "parent_release_sha256": "e956937660990593c915963bb3a013c8d552c088a8fac0b772dffcf8ad431048"
+    },
+    {
+      "path": "runs/memory_samples.jsonl",
+      "source": "runs/memory_samples.jsonl",
+      "transformation": "Aggregate same LM Studio/llama process selection as frozen analyzer per sample; remove paths, PIDs, unrelated processes, wall-clock times. Preserve sample order and exact summed RSS.",
+      "original_sha256": "354c8e52700b8b89738063e175ea8c9615d142169bb73f7025446fa6aab45de2",
+      "release_sha256": "a7e37f4a6b84aedcfaa7ea889cd0ebe73a436a5d2865e90f5d69cd4eb801b719"
+    },
+    {
+      "path": ".gitignore",
+      "source": "publication_tools/templates/.gitignore",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "d41cc90581675ef0ae5ce6e48bfc7ffd47de8ce860465826663cad26e7f01cac"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "source": "publication_tools/templates/AUTHORSHIP.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | Approved public contact added; author identity and human/AI contribution statement preserved.",
+      "release_sha256": "7199029a7c472925ba005c8fdce49b32360a73fc7adbe6bc6b3e2fac9dfeaf04",
+      "parent_release_sha256": "48bfc69f351a574064bce6d757c145f487cbc4cebf7236a6ee4aecee4e852c0b"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source": "publication_tools/templates/CHANGELOG.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | New version changelog; historical rc1 changelog remains in immutable source candidate. | rc3: Current licence/destination revision changelog; immutable earlier changelogs remain in prior candidates.",
+      "release_sha256": "fa3984ad1a3db7870cc8dd5dfbc4c5c6711140760978f22335039e09baf846d9",
+      "parent_release_sha256": "8ee357005fe32ff0b43bf5b66095f454e261c84295b15afa9eb6b2df24a5fd09"
+    },
+    {
+      "path": "CITATION.cff",
+      "source": "publication_tools/templates/CITATION.cff",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | Version and approved author contact updated. | rc3: Version, actual repository and mixed material-specific licences recorded; licences apply to distinct materials, not an unrestricted choice.",
+      "release_sha256": "1bf26f8416e61dedf98592a98da83ccddf8097b385c351c43cc7b8d340ce92f0",
+      "parent_release_sha256": "46ce761f36b1ae2795b1d70db6c1794a8a4c2d39d3698ede3c25e892c0e95205"
+    },
+    {
+      "path": "DATA_ACCESS.md",
+      "source": "publication_tools/templates/DATA_ACCESS.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | Removed internal draft correspondence from public-facing documentation; exact data provenance, exclusions and access limits retained. Draft preserved locally in immutable rc1.",
+      "release_sha256": "3e92759c9189870197f73f311530b09a09500c055458b3b8741fbfa9d0b6a2d6",
+      "parent_release_sha256": "58b4e1534701bdb2a2729737b7c6d9daf25e0270f9a884b8823c774522ad14d6"
+    },
+    {
+      "path": "README.md",
+      "source": "publication_tools/templates/README.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | Version, approved contact, sanitisation boundary and future-log privacy guidance added. | rc3: Version, destination and approved licence scope updated; no scientific change.",
+      "release_sha256": "90962abedcda3c2c6b6fd3a8f22f96c28ffd2eb71d09d6587f7ce757c2b8b833",
+      "parent_release_sha256": "9d1619e6ede4f9688dca300c99f6b039149ab7281f7f01ff8e9c765170544a7c"
+    },
+    {
+      "path": "REPORT.md",
+      "source": "publication_tools/templates/REPORT.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | Approved contact added; report findings and attribution unchanged. | rc3: Availability paragraph records approved licences; scientific findings unchanged.",
+      "release_sha256": "ade696d62aeae59ac18b649e78cec78116d8a41ea03e34d7b46d02c3427ad0e0",
+      "parent_release_sha256": "de3f4ed68c992a58f98e38782a82b682a0129556d805bfb160656f9ac4605f78"
+    },
+    {
+      "path": "REVIEWER_GUIDE.md",
+      "source": "publication_tools/templates/REVIEWER_GUIDE.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "4ede8a95d417c5bc48445e5445387a84003d1cb6b4cdae9c7294f5b33829c44d"
+    },
+    {
+      "path": "RIGHTS.md",
+      "source": "publication_tools/templates/RIGHTS.md",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock | Removed reference to excluded internal draft enquiry; no licence grant changed. | rc3: Author-approved licence choices recorded with material-specific scope and unchanged exclusions.",
+      "release_sha256": "67b0bc5fa32a9ebc55266b682146a2f66e4244c723f1e2f257c4f91ed504aa04",
+      "parent_release_sha256": "a35db236bb965cf8eb289f5c2be71375b7ddfe455c2c2551b1273be3528ab622"
+    },
+    {
+      "path": "replay.html",
+      "source": "publication_tools/templates/replay.html",
+      "transformation": "new release-only HTML template with all 126 saved synthetic test episodes embedded | Release version and plain-text approved public contact updated; embedded episode data and executable JavaScript unchanged. | rc3: Version label only; all embedded episodes and executable JavaScript unchanged.",
+      "release_sha256": "d58cf6be79145e18ef0c3bc1f21cb7f8ecc0d0a84e255a784a85c2f19e36c5b3",
+      "parent_release_sha256": "be5e61cba553b14bc7c1771c1ea2dc3423b0f26ca9a75ab2990e9b9a868d4412"
+    },
+    {
+      "path": "scripts/check_saved_environment.py",
+      "source": "publication_tools/templates/scripts/check_saved_environment.py",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "9a0774c9f8f14d9120d7f38357aa22a7c7ce133002b35ea76e2d12b0d90669f1"
+    },
+    {
+      "path": "scripts/reproduce_saved.py",
+      "source": "publication_tools/templates/scripts/reproduce_saved.py",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "264864c0c9da73a89a364bee14da5c88640119029a2cfbfe10cd720e556564f5"
+    },
+    {
+      "path": "scripts/serve_replay.py",
+      "source": "publication_tools/templates/scripts/serve_replay.py",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "65f2fa8fc2b1699fd1e316f01b5696c600610da827574b57018294cc42330acd"
+    },
+    {
+      "path": "scripts/test_release_verifier.py",
+      "source": "publication_tools/templates/scripts/test_release_verifier.py",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "9139525a549e8edcab33364a4491abd31209325611e8e071b5a2572c68f5e881"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "source": "publication_tools/templates/scripts/verify_release.py",
+      "transformation": "new release-only tooling or documentation; not part of pre-test lock",
+      "release_sha256": "8ef69bcc8b8da0bd2e8c7683b68e4b5195b93969a8118834488f156772fe5319"
+    },
+    {
+      "path": "RELEASE_AUDIT.md",
+      "source": "rc2 local privacy review",
+      "transformation": "New rc2 review documentation; historical rc1 audit labelled separately. | rc3: Current verification scope plus explicitly historical rc2 audit; no new scientific test claims.",
+      "release_sha256": "0bbf4c2b5fc40674e1f399ddf28ad48b31958a83010f6b580e858b8acb6e3dca",
+      "parent_release_sha256": "6dbdf67f41d76ec254a1c478526a6cfc4acba5a6dc4c79161d4297930dea5a70"
+    },
+    {
+      "path": "PRIVACY_AUDIT.md",
+      "source": "rc2 local privacy review",
+      "transformation": "New rc2 review documentation; historical rc1 audit labelled separately. | rc3: Label historical audit and update licence/repository facts without altering original findings.",
+      "release_sha256": "2a50dc88599bce64a825eb0f15971023c92604774a9eea99d6d86d70e16c318d",
+      "parent_release_sha256": "66db0ec030c68d1d4205071940b41b418d06b6ec36a8a3011d03aee8e74f6191"
+    },
+    {
+      "path": "LICENSE-REPORT-RESULTS.md",
+      "source": "rc3 author-approved licence notice",
+      "transformation": " | rc3: New CC BY 4.0 grant notice reflecting explicit user licence approval; no upload approval implied.",
+      "release_sha256": "2e1dea94e5fb723bf2f4a2ceb8c4c11c2aafc5e6c205326b5b5f14e2b794d00f"
+    }
+  ],
+  "excluded": [
+    "all NPZ graphs/readouts and measured archive/neuron IDs (data licensing unresolved)",
+    "model weights and local runtime binaries",
+    ".git, .venv, user instructions/status and machine inventory",
+    "interactive exploration logs (not pilot evidence)",
+    "third-party research source copies; cite upstream instead",
+    "machine-record/profile-inference/research-fetch convenience scripts (unneeded for offline verification)"
+  ],
+  "scanner": {
+    "approved_public_email": "krystian@connection-london.org",
+    "findings": [],
+    "scope": "All text including hidden files; decoded JSON strings; archive names/metadata; manual schema, source, output and document review.",
+    "limitations": "Same implementing agent; no independent security certification, legal clearance or guarantee."
+  },
+  "parent_candidate": {
+    "version": "0.1.0-rc2",
+    "archive_sha256": "d6c53f3985285020aaafbae5ce94cf331c4f3ab18941bcb8bebed7de8afb97b6",
+    "checksum_file_sha256": "aa44448f783c3210a516ddfa2e9ede92e921e52cf8d927e6d368d144a0aa17b7"
+  },
+  "privacy_revision": {
+    "date": "2026-09-13",
+    "author": "Krystian Turek",
+    "contact": "krystian@connection-london.org",
+    "new_inference_calls": 0,
+    "transformations": {
+      "README.md": "Version, approved contact, sanitisation boundary and future-log privacy guidance added.",
+      "CITATION.cff": "Version and approved author contact updated.",
+      "replay.html": "Release version and plain-text approved public contact updated; embedded episode data and executable JavaScript unchanged.",
+      "AUTHORSHIP.md": "Approved public contact added; author identity and human/AI contribution statement preserved.",
+      "REPORT.md": "Approved contact added; report findings and attribution unchanged.",
+      "runs/test_calls.jsonl": "rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "runs/probe_calls.jsonl": "rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "runs/validation_calls.jsonl": "rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "runs/validation_v2_calls.jsonl": "rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "runs/validation_v3_calls.jsonl": "rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "runs/profile.jsonl": "rc2 removes only response.id, response.created and response.system_fingerprint; all other decoded fields, prompts, response content and failures unchanged.",
+      "runs/call_ledger.jsonl": "rc2 replaces wall-clock time with elapsed_s from first reservation; preserves reservation IDs, tags, order and elapsed intervals.",
+      "runs/machine.json": "rc1 field allowlist retained with additional removal of macos patch-version field in rc2; original frozen hash remains documented.",
+      "DATA_ACCESS.md": "Removed internal draft correspondence from public-facing documentation; exact data provenance, exclusions and access limits retained. Draft preserved locally in immutable rc1.",
+      "RIGHTS.md": "Removed reference to excluded internal draft enquiry; no licence grant changed.",
+      "CHANGELOG.md": "New version changelog; historical rc1 changelog remains in immutable source candidate."
+    }
+  },
+  "parent_prepared_utc": "2026-09-13T14:53:11.567796+00:00",
+  "prepared_date": "2026-09-13",
+  "license_approval": {
+    "date": "2026-09-13",
+    "author": "Krystian Turek",
+    "code": "MIT",
+    "report_documentation_original_synthetic_results": "CC-BY-4.0",
+    "upload_approved": false
+  },
+  "repository": "https://github.com/krystian-connection/fly-regulator-pilot",
+  "revision_changes": {
+    "README.md": "Version, destination and approved licence scope updated; no scientific change.",
+    "CITATION.cff": "Version, actual repository and mixed material-specific licences recorded; licences apply to distinct materials, not an unrestricted choice.",
+    "REPORT.md": "Availability paragraph records approved licences; scientific findings unchanged.",
+    "RIGHTS.md": "Author-approved licence choices recorded with material-specific scope and unchanged exclusions.",
+    "LICENSE-REPORT-RESULTS.md": "New CC BY 4.0 grant notice reflecting explicit user licence approval; no upload approval implied.",
+    "replay.html": "Version label only; all embedded episodes and executable JavaScript unchanged.",
+    "CHANGELOG.md": "Current licence/destination revision changelog; immutable earlier changelogs remain in prior candidates.",
+    "RELEASE_AUDIT.md": "Current verification scope plus explicitly historical rc2 audit; no new scientific test claims.",
+    "PRIVACY_AUDIT.md": "Label historical audit and update licence/repository facts without altering original findings."
+  }
+}

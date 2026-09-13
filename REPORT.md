@@ -1,0 +1,58 @@
+# Evaluating a Fly-Connectome Regulator for a Frozen Local LLM: A Controlled Pilot
+
+Local draft, 13 September 2026. Author: Krystian Turek; contribution disclosure in AUTHORSHIP.md. Contact: krystian@connection-london.org. Not peer reviewed. AI assistance and author responsibility are described in AUTHORSHIP.md.
+
+## Abstract
+
+We tested whether a persistent numerical regulator derived from measured larval fruit-fly connectivity improved a frozen local language model's decisions under changing constraints. Seven conditions compared the LLM alone, a simple stateful controller, random and measured-connectome reservoirs, degree-preserving rewires, and state-reset and output-disconnection ablations. Two synthetic six-decision tasks tested resource prioritisation and unreliable tool selection. A locally frozen protocol specified 126 complete test episodes, crossing three environment seeds per task with three interface seeds, within a 1,000-attempt initial budget including development and browser verification. Fly-minus-simple scaled return was +0.0093, with a descriptive crossed-cluster 95% bootstrap interval of [0, +0.0370]. Seventeen of 18 paired cells had identical returns; the entire difference came from one decision. Comparisons with random and rewired graphs and the persistence ablation did not establish a measured-wiring benefit. Advice changed actions in 7 of 24 same-state intervention pairs, establishing influence on those sampled states, not usefulness. All conditions failed the tool success threshold. This underpowered pilot contributes an inspectable evaluation implementation and diagnostic lessons; it does not establish general benefit or futility of connectome regulators.
+
+## Motivation and relation to prior work
+
+A biological connectivity matrix does not itself provide goals, semantics, learning or a suitable agent interface. The question here is whether its particular topology adds value after accounting for ordinary memory, readout capacity, advice and tuning. The language model receives task language; the regulator receives numerical observations only.
+
+Connectome reservoir computing already has substantial precedent, including [conn2res](https://pmc.ncbi.nlm.nih.gov/articles/PMC10803782/) and the [ESA fly-reservoir project](https://www.esa.int/gsp/ACT/projects/fly_connectome/). [Therianos's frozen larval rate-operator study](https://arxiv.org/abs/2606.17745v2) is a particularly close methods precedent for fixed leak dynamics and matched rewiring. [Gubernaut](https://arxiv.org/abs/2607.24339v1) separates numerical telemetry control from language processing. [FLM](https://github.com/nftechie/flm) instead drives a graph with token information and reads into language-model output. [FlyGM](https://arxiv.org/abs/2602.17997v3) studies a different policy/locomotion setting. Our tasks are new adaptations motivated partly by [EVAAA](https://github.com/cocoanlab/evaaa), not reproduced benchmark results. RESEARCH.md records inspected versions, evidence quality and reuse. No exact match to the full study was located in that limited search; no guaranteed novelty is claimed.
+
+## Experiment
+
+The frozen model was the existing Qwen3.5-4B Q4_K_S quantisation served by LM Studio 0.4.21+2 on an M3 Max Mac with 64 GiB unified memory. The model file's SHA-256 is in run_config.json. Every condition used temperature zero, sampling seed 177, a 4,096-token context cap and a 32-token constrained JSON output cap. The completion template explicitly closed the reasoning block after the runtime ignored a chat thinking toggle. This is a consequential restriction on the tested inference configuration, not a statement about the model's unrestricted capability.
+
+The regulator used all 2,952 nodes and 110,677 directed pairs in the supplied all-all larval matrix from [Winding et al.](https://doi.org/10.1126/science.add9330), with 352,611 contact counts. It is the intact supplied matrix, not the final paper's larger headline connectome, an adult brain or a whole fly. No filtering or invented anatomical edges were added. Source, orientation, archive checksum and unresolved redistribution terms are in DATA_ACCESS.md and RESEARCH.md.
+
+The engineered recurrence is `x <- (1-leak)*x + leak*tanh(W*x + 0.6*input)`, with three reproducible ticks per LLM decision. State resets between episodes. Inputs comprise 16 numeric resource, progress, failure, observed-change and action-history features. Input signs, neuron assignments and 16-bucket output pooling are artificial. Recurrent weights are nonnegative contact-derived values; transmitter signs or living-fly mechanisms are not inferred. A 51-coefficient ridge readout supplies a recommendation A/B/C and three scores. Training-derived centering/scaling adds 32 constants. The LLM makes the actual action choice and can ignore advice.
+
+All trained conditions receive the same training trajectories and four leak/ridge candidates, selected by mean-squared error on separate whole validation episodes. The teacher is a fallible observable heuristic. Training uses seeds 10000–10039 per task, numerical validation 20000–20015, and test 30000–30002 with unseen exact change timings. The tests remain within the same schedule family. Interface seeds are 11, 29 and 47. Candidate selection is a matched inexpensive surrogate budget, not exhaustive tuning on task return.
+
+The random and rewired reservoirs match graph size, edge count, weight/sign multiset, dynamics and input/readout capacity. Directed double-edge swaps preserve every node's in/out degree and incoming strength; ten accepted swaps per edge yield about 3.3–3.4% original-edge overlap. Rewires change outgoing strengths, autapses and higher-order structure. Random graphs differ in degree and strength placement. Common scaling bounds incoming absolute sums by 0.85, but fly/rewired reach only about 0.2604; measured fly state has a roughly two-tick half-amplitude decay. This conservative short-memory regime may obscure topology effects.
+
+The resource task scores work rewards, energy costs, recharge and infeasible actions. The tool task scores successful work, failed attempts, switching and inspection. Each episode must consume all six decisions; success requires at least four work completions and no violations. There is no rewarded quit action. Every arm sees the same rules, observation/history schema and advice interface, with neutral advice for alone and disconnected conditions. Available information and token caps match; endogenous histories and numeric advice create small actual token-count differences.
+
+## Results and uncertainty
+
+The test comprises 126 episodes and 756 actual local calls, but only six distinct task/scenario combinations. Each task/condition has nine runs from three environments crossed with three interfaces. Paired inference must respect that repeated structure. The primary score divides resource return by 18 and tool return by 10.8 and averages tasks equally. Ten thousand paired bootstrap draws resample interfaces jointly and environments within task. With three clusters on each axis, the resulting intervals are descriptive and fragile.
+
+| Comparator | Fly minus comparator, scaled return | Descriptive 95% interval |
+|---|---:|---:|
+| Simple (primary) | +0.0093 | [0.0000, 0.0370] |
+| Alone | +0.0570 | [-0.1189, 0.2028] |
+| Random | +0.0049 | [-0.0130, 0.0370] |
+| Rewired | +0.0051 | [-0.0259, 0.0394] |
+| Fly reset | -0.0057 | [-0.0645, 0.0433] |
+| Fly disconnected | +0.0570 | [-0.1189, 0.2028] |
+
+The primary gain is wholly attributable to tools/scenario 30001/interface 47: at decision four, fly chose A for reward 1.4 while simple chose C for -0.4. In that decision the fly controller actually recommended B, while the LLM chose A; the gain cannot be described as successful following of the recommendation. Other paired returns were identical. The bootstrap's zero lower endpoint is not evidence that harm is impossible. Fly resource return averaged 7.637 versus alone 6.417, while resource success fell from 9/9 to 6/9 with three violations. Fly and simple resource return matched exactly. All conditions had zero tool successes; return differences therefore do not demonstrate adequate practical tool adaptation. Full parallel metrics and all comparators are in RESULTS.md and the CSVs.
+
+Advice replacement changed 7/24 same-public-state paired actions, split 3/12 resources and 4/12 tools. These repeated episode/interface probes are not independent Bernoulli trials. All 18 disconnected episode sequences exactly matched alone. Normal fly advice agreement was 18.5%, a different measure from causal influence. Persistent state was not supported by the reset comparison.
+
+The test used 787,231 tokens and 909.1 seconds of summed local request latency. Fly controller execution averaged 0.627 ms per decision versus simple 0.146 ms, excluding loading/initialisation. LLM timing variation is not a demonstrated controller speedup. Each CSR graph occupied 1,339,936 bytes and state 23,616 bytes. Python peak RSS was approximately 64 MiB. Peak summed runtime-process RSS was 11.79 GiB, which can double-count shared pages and is not incremental model memory or a full Metal allocation measure.
+
+## Validity, failures and next work
+
+Two early 84-call validation batches leaked scoring-only latent information into LLM history and are invalid for efficacy. A public-history allowlist fixed this before the locked test; a final 24-call validation checked the sanitised interface. Offline fitting did not consume those contaminated language histories. The candidate retains the invalid records and labels them explicitly. The protocol and 38 execution/data files were hashed locally before test inference; this was not externally registered preregistration. Existing audits and this release audit are additional passes by the implementing agent, not independent human review.
+
+After the test, an observable heuristic succeeded on all three tool scenarios, and a clairvoyant exhaustive check confirmed attainable success. These are clearly post-hoc diagnostics, not fair preregistered baselines or training targets. They suggest an agent/interface bottleneck but do not identify its cause. Six decisions, three scenario seeds, one quantised model, restricted decoding, a myopic teacher, artificial ports and short memory substantially constrain interpretation. Absence of convincing benefit here is not evidence of equivalence across other settings.
+
+The next study should first validate useful telemetry-based LLM behaviour on training/validation, include a direct observable-controller baseline, and require non-floor task success. A new frozen protocol could then test longer episodes, more independent schedules and validated decay regimes while preserving matched graph controls. No additional inference is authorised by preparing this release. The initial budget is exhausted at 1,000 conservative attempts including UI verification (999 requests reached the model).
+
+## Availability
+
+The local candidate contains original code, saved synthetic calls/outcomes, analysis, provenance, hashes and a model-free replay. The author approved MIT for original code and CC BY 4.0 for the report and original synthetic results on 13 September 2026; see RIGHTS.md. Final public upload approval remains pending. The archive and graph/readout derivatives are excluded pending specific redistribution clarification; fresh controller reconstruction is therefore not self-contained. Saved analysis is reproducible independently of those missing files. No independent reproduction or peer-review acceptance is claimed.

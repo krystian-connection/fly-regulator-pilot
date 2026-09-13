@@ -1,0 +1,5 @@
+# Candidate 0.1.0-rc3 — 13 September 2026
+
+The author approved MIT for original code and CC BY 4.0 for the original report and synthetic results. Added the scoped CC BY notice, recorded approval in RIGHTS.md and availability text, and added the actual GitHub repository to citation metadata. Updated the release version. Repository creation and licence approval do not imply public upload approval; the repository remains private and empty at preparation time.
+
+All code, task definitions, protocol, logs, failures, episodes, analysis, result tables and rc2 privacy transformations are byte-identical to rc2. The replay changes only its visible version label. Author Krystian Turek, contact krystian@connection-london.org, and human/AI contribution roles remain unchanged. No new inference, experiment, external outreach or file upload occurred. All prior candidates and frozen originals remain immutable. Historical audits describe their dated candidate and approval states; current licence scope is in RIGHTS.md.

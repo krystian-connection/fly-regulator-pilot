@@ -1,0 +1,44 @@
+{
+  "protocol": "PROTOCOL.md",
+  "model": "fly-regulator-llm",
+  "model_file_sha256": "27caeb0e4b999d92ce0a9fdbdd1a7ba5112908d9de125645883732274be2ea77",
+  "runtime": "LM Studio 0.4.21+2",
+  "endpoint": "http://127.0.0.1:1234/v1/completions",
+  "temperature": 0,
+  "llm_seed": 177,
+  "output_tokens": 32,
+  "context_length": 4096,
+  "conditions": [
+    "alone",
+    "simple",
+    "random",
+    "fly",
+    "rewired",
+    "fly_reset",
+    "fly_disconnected"
+  ],
+  "tasks": [
+    "resources",
+    "tools"
+  ],
+  "interface_graph_seeds": [
+    11,
+    29,
+    47
+  ],
+  "test_environment_seeds": [
+    30000,
+    30001,
+    30002
+  ],
+  "horizon": 6,
+  "ticks_per_decision": 3,
+  "test_calls": 756,
+  "causal_probe_calls": 48,
+  "all_experimental_reservations_planned": 999,
+  "initial_call_cap": 1000,
+  "readout_feature_count": 16,
+  "readout_coefficient_count": 51,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 812
+}

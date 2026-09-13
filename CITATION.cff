@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and its accompanying pilot report when using the work. See RIGHTS.md for material-specific licence scope."
+title: "Evaluating a Fly-Connectome Regulator for a Frozen Local LLM: A Controlled Pilot"
+type: software
+version: 0.1.0-rc3
+authors:
+  - family-names: Turek
+    given-names: Krystian
+    email: "krystian@connection-london.org"
+abstract: "Controlled, underpowered local pilot with a frozen LLM, measured larval connectivity, matched graph controls and causal ablations. No convincing topology or persistence advantage was established. Includes an offline replay and saved-result analysis; connectivity and readouts excluded pending data licence clarification. See AUTHORSHIP.md for the owner's natural-language direction and Codex's implementation, execution, analysis and drafting roles."
+keywords:
+  - connectome
+  - reservoir computing
+  - language model evaluation
+  - negative results
+repository-code: "https://github.com/krystian-connection/fly-regulator-pilot"
+license:
+  - MIT
+  - CC-BY-4.0

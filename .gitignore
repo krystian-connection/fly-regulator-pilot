@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/*.npz
+data/*.zip
+data/neuron_ids.json
+runs/explore*
+runs/exploration*
