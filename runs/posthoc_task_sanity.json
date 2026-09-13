@@ -1,0 +1,167 @@
+{
+  "label": "Post-test sanity check, not preregistered outcome or fitted target. Exhaustive search sees future outcomes and is only an attainability bound.",
+  "rows": [
+    {
+      "task": "resources",
+      "seed": 30000,
+      "observable_teacher": {
+        "return": 7.41,
+        "normalized_return": 0.4116666666666667,
+        "success": true,
+        "progress": 4,
+        "violations": 0,
+        "switches": 1,
+        "retries": 0,
+        "unnecessary_switches": 0,
+        "unnecessary_retries": 0,
+        "expected_regret": 0.0,
+        "recovery_lag": 0.0
+      },
+      "clairvoyant_max_return": 10.71,
+      "success_attainable": true,
+      "clairvoyant_actions": [
+        "B",
+        "C",
+        "A",
+        "B",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "task": "resources",
+      "seed": 30001,
+      "observable_teacher": {
+        "return": 9.040000000000001,
+        "normalized_return": 0.5022222222222222,
+        "success": true,
+        "progress": 4,
+        "violations": 0,
+        "switches": 2,
+        "retries": 0,
+        "unnecessary_switches": 0,
+        "unnecessary_retries": 0,
+        "expected_regret": 0.0,
+        "recovery_lag": 0.0
+      },
+      "clairvoyant_max_return": 10.830000000000002,
+      "success_attainable": true,
+      "clairvoyant_actions": [
+        "B",
+        "A",
+        "C",
+        "B",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "task": "resources",
+      "seed": 30002,
+      "observable_teacher": {
+        "return": 9.46,
+        "normalized_return": 0.5255555555555556,
+        "success": true,
+        "progress": 4,
+        "violations": 0,
+        "switches": 2,
+        "retries": 0,
+        "unnecessary_switches": 0,
+        "unnecessary_retries": 0,
+        "expected_regret": 0.0,
+        "recovery_lag": 0.0
+      },
+      "clairvoyant_max_return": 11.700000000000001,
+      "success_attainable": true,
+      "clairvoyant_actions": [
+        "B",
+        "C",
+        "C",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "task": "tools",
+      "seed": 30000,
+      "observable_teacher": {
+        "return": 5.4,
+        "normalized_return": 0.5,
+        "success": true,
+        "progress": 4,
+        "violations": 0,
+        "switches": 2,
+        "retries": 1,
+        "unnecessary_switches": 1,
+        "unnecessary_retries": 1,
+        "expected_regret": 4.084999999999999,
+        "recovery_lag": 1.0
+      },
+      "clairvoyant_max_return": 10.000000000000002,
+      "success_attainable": true,
+      "clairvoyant_actions": [
+        "B",
+        "A",
+        "A",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "task": "tools",
+      "seed": 30001,
+      "observable_teacher": {
+        "return": 7.699999999999999,
+        "normalized_return": 0.7129629629629628,
+        "success": true,
+        "progress": 5,
+        "violations": 0,
+        "switches": 2,
+        "retries": 0,
+        "unnecessary_switches": 0,
+        "unnecessary_retries": 0,
+        "expected_regret": 1.0949999999999998,
+        "recovery_lag": 0.0
+      },
+      "clairvoyant_max_return": 7.799999999999999,
+      "success_attainable": true,
+      "clairvoyant_actions": [
+        "B",
+        "A",
+        "A",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "task": "tools",
+      "seed": 30002,
+      "observable_teacher": {
+        "return": 5.4,
+        "normalized_return": 0.5,
+        "success": true,
+        "progress": 4,
+        "violations": 0,
+        "switches": 2,
+        "retries": 1,
+        "unnecessary_switches": 0,
+        "unnecessary_retries": 1,
+        "expected_regret": 2.1899999999999995,
+        "recovery_lag": 1.0
+      },
+      "clairvoyant_max_return": 8.200000000000001,
+      "success_attainable": true,
+      "clairvoyant_actions": [
+        "B",
+        "A",
+        "C",
+        "B",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

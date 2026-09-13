@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-13",
+  "hardware": "Apple M3 Max, 16 cores, 64 GiB unified memory",
+  "python": "3.14.7",
+  "model_bytes": 2590430368,
+  "model_sha256": "27caeb0e4b999d92ce0a9fdbdd1a7ba5112908d9de125645883732274be2ea77",
+  "model_identifier": "fly-regulator-llm",
+  "context_length": 4096,
+  "gpu_offload": "max",
+  "runtime": "Existing LM Studio",
+  "network": "Inference at 127.0.0.1:1234 only"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "numpy",
+    "version": "2.4.3",
+    "installed_RECORD_sha256": "069248e1ef09b0f4d4d7f70e94af60e71f653cc523fdd571586023b91dc8aa9e",
+    "metadata_sha256": "621bf875d57eee8673f39344ea98ddc370e944e9c8c36b38b430e290f2b682cf",
+    "licence_metadata": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
+  },
+  {
+    "name": "scipy",
+    "version": "1.17.1",
+    "installed_RECORD_sha256": "250fc20013cb1f03a307bbdb26788b210077650bc2ace21b839c62bae294b83c",
+    "metadata_sha256": "b1cd2c784f6e003c6c71af4c5ee57f6370ee467d17b656250d9fd38cf579d7d0",
+    "licence_metadata": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or wit"
+  }
+]

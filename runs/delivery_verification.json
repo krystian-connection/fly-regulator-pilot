@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "frozen_hashes_unchanged": 38,
+  "test_episodes": 126,
+  "test_calls": 756,
+  "probe_pairs": 24,
+  "experimental_reservations": 999
+}

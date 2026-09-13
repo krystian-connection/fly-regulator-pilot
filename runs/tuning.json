@@ -1,0 +1,482 @@
+[
+  {
+    "condition": "simple",
+    "seed": 11,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.3007623774134529,
+    "candidates": [
+      {
+        "mse": 0.3575657023886864,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3544970467344576,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.301494062220074,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3007623774134529,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "simple",
+    "seed": 29,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.3007623774134529,
+    "candidates": [
+      {
+        "mse": 0.3575657023886864,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3544970467344576,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.301494062220074,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3007623774134529,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "simple",
+    "seed": 47,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.3007623774134529,
+    "candidates": [
+      {
+        "mse": 0.3575657023886864,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3544970467344576,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.301494062220074,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3007623774134529,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "random",
+    "seed": 11,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.2967915109260226,
+    "candidates": [
+      {
+        "mse": 0.3524840702875253,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.34392479551741206,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.30058614126493777,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.2967915109260226,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "random",
+    "seed": 29,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.29758086915843296,
+    "candidates": [
+      {
+        "mse": 0.3466603078511818,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3536159413772935,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.29777018876305805,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.29758086915843296,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "random",
+    "seed": 47,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.30795206122347485,
+    "candidates": [
+      {
+        "mse": 0.38472599086317355,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.38008606879869333,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.31275241208463855,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.30795206122347485,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "fly",
+    "seed": 11,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.29745525296326325,
+    "candidates": [
+      {
+        "mse": 0.3513934003157027,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.34387140743315103,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.3056348186210939,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.29745525296326325,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "fly",
+    "seed": 29,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.29901789836144316,
+    "candidates": [
+      {
+        "mse": 0.36136151134000927,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3584166947867697,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.30124297146527224,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.29901789836144316,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "fly",
+    "seed": 47,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.3102228767961873,
+    "candidates": [
+      {
+        "mse": 0.3540680792995816,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.36604158550355703,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.3134013405930863,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3102228767961873,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "rewired",
+    "seed": 11,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.2961448511411675,
+    "candidates": [
+      {
+        "mse": 0.35027516490353555,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.34668155655689215,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.3029174958000836,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.2961448511411675,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "rewired",
+    "seed": 29,
+    "leak": 0.5,
+    "ridge": 0.01,
+    "validation_mse": 0.29718317196180954,
+    "candidates": [
+      {
+        "mse": 0.33125331362548244,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.33390058337770767,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.29718317196180954,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.29740503206471774,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "rewired",
+    "seed": 47,
+    "leak": 0.5,
+    "ridge": 0.01,
+    "validation_mse": 0.29151909664926495,
+    "candidates": [
+      {
+        "mse": 0.34825952668869314,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3642690332885363,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.29151909664926495,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.2939398830621817,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "fly_reset",
+    "seed": 11,
+    "leak": 0.5,
+    "ridge": 0.01,
+    "validation_mse": 0.28811338095967964,
+    "candidates": [
+      {
+        "mse": 0.3048546044614558,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.31152158030620414,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.28811338095967964,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3085615110631584,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "fly_reset",
+    "seed": 29,
+    "leak": 0.5,
+    "ridge": 0.01,
+    "validation_mse": 0.30589377956865715,
+    "candidates": [
+      {
+        "mse": 0.30648861515890385,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.30984579257958117,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.30589377956865715,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.308789352315081,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  },
+  {
+    "condition": "fly_reset",
+    "seed": 47,
+    "leak": 0.5,
+    "ridge": 1.0,
+    "validation_mse": 0.3061667711641099,
+    "candidates": [
+      {
+        "mse": 0.31049685409423344,
+        "leak": 0.2,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3066442935750253,
+        "leak": 0.2,
+        "ridge": 1.0
+      },
+      {
+        "mse": 0.30776149817660814,
+        "leak": 0.5,
+        "ridge": 0.01
+      },
+      {
+        "mse": 0.3061667711641099,
+        "leak": 0.5,
+        "ridge": 1.0
+      }
+    ],
+    "training_decisions": 480,
+    "validation_decisions": 192,
+    "readout_parameters": 51
+  }
+]

@@ -1,0 +1,21 @@
+test_degree_signature_excludes_relabel (test_experiment.HarnessTests.test_degree_signature_excludes_relabel) ... ok
+test_disconnection (test_experiment.HarnessTests.test_disconnection) ... ok
+test_graph_matching_and_nontrivial_rewire (test_experiment.HarnessTests.test_graph_matching_and_nontrivial_rewire) ... ok
+test_invalid_and_quit_penalized_full_horizon (test_experiment.HarnessTests.test_invalid_and_quit_penalized_full_horizon) ... ok
+test_no_future_observation (test_experiment.HarnessTests.test_no_future_observation) ... ok
+test_real_graph (test_experiment.HarnessTests.test_real_graph) ... ok
+test_reproducible_exogenous_schedule (test_experiment.HarnessTests.test_reproducible_exogenous_schedule) ... ok
+test_reset_ablation (test_experiment.HarnessTests.test_reset_ablation) ... ok
+test_reset_and_decay (test_experiment.HarnessTests.test_reset_and_decay) ... ok
+test_resources_no_reward_when_insufficient (test_experiment.HarnessTests.test_resources_no_reward_when_insufficient) ... ok
+test_splits_change_patterns_disjoint (test_experiment.HarnessTests.test_splits_change_patterns_disjoint) ... ok
+test_tools_hand_calculation (test_experiment.HarnessTests.test_tools_hand_calculation) ... ok
+test_invalid_overrides (test_web_controls.WebControls.test_invalid_overrides) ... ok
+test_reset_clears_memory_and_uses_seed (test_web_controls.WebControls.test_reset_clears_memory_and_uses_seed) ... ok
+test_reset_rejects_inflight_action (test_web_controls.WebControls.test_reset_rejects_inflight_action) ... ok
+test_stop_and_complete_do_not_issue_llm_calls (test_web_controls.WebControls.test_stop_and_complete_do_not_issue_llm_calls) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.100s
+
+OK

@@ -1,0 +1,9 @@
+test_invalid_overrides (test_web_controls.WebControls.test_invalid_overrides) ... ok
+test_reset_clears_memory_and_uses_seed (test_web_controls.WebControls.test_reset_clears_memory_and_uses_seed) ... ok
+test_reset_rejects_inflight_action (test_web_controls.WebControls.test_reset_rejects_inflight_action) ... ok
+test_stop_and_complete_do_not_issue_llm_calls (test_web_controls.WebControls.test_stop_and_complete_do_not_issue_llm_calls) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.006s
+
+OK

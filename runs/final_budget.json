@@ -1,0 +1,15 @@
+{
+  "verified_at_utc": "2026-09-13T14:28:37.678860+00:00",
+  "pilot_reservations": 999,
+  "browser_verification_calls": 1,
+  "total_initial_reservations": 1000,
+  "network_requests_that_reached_local_model": 999,
+  "tag_counts": {
+    "validation": 84,
+    "validation_v2": 84,
+    "validation_v3": 24,
+    "test": 756,
+    "probe": 48,
+    "explore": 1
+  }
+}
